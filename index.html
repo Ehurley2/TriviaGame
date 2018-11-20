@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  
+    <title>Christmas Trivia!</title>
+</head>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>The Q's of Christmas</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!-- timer will be displayed in div#show-number-->
+			<div id="show-number"></div>
+			<p class="question">1. In the song “Frosty the Snowman,” what made Frosty come to life?</p>
+			<ul class="choices">
+			<input type="radio" name="q1" value= 0 >A stiff breeze<br/>
+			<input type="radio" name="q1" value= 1 >An old silk hat<br/>
+			<input type="radio" name="q1" value= 0 >Enchanted carrot<br/>
+			<input type="radio" name="q1" value= 0 >Children's laughter<br/>
+            </ul>
+            <br>
+			<p class="question">2. What Christmas decoration was originally made from strands of silver?</p>
+			<ul class="choices">
+			<input type="radio" name="q2" value= 0 > Wreaths <br/>
+			<input type="radio" name="q2" value= 0 > Christmas lights<br/>
+			<input type="radio" name="q2" value= 1 > Tinsel <br/>
+			<input type="radio" name="q2" value= 0 > Fake snow <br/>
+			</ul>
+			<br>
+			<p class="question">3. Who played George Bailey in the Christmas classic “It’s a Wonderful Life?”</p>
+			<ul class="choices">
+			<input type="radio" name="q3" value= 1 > Jimmy Stewart <br/>
+			<input type="radio" name="q3" value= 0 > Tony Hawk <br/>
+			<input type="radio" name="q3" value= 0 > Albert Einstein <br/>
+			<input type="radio" name="q3" value= 0 > George Clooney <br/>
+			</ul>
+			<br>
+			<p class="question">4. Per a recent holiday fad, what “spy” hides around the house, reporting back to Santa on who has been naughty and nice?
+            </p>
+			<ul class="choices">
+			<input type="radio" name="q4" value= 0 > Jack Frost <br/>
+			<input type="radio" name="q4" value= 1 > The Elf on the Shelf <br/>
+			<input type="radio" name="q4" value= 0 > Buddy the Elf <br/>
+			<input type="radio" name="q4" value= 0 > Krampus <br/>
+			</ul>
+			<br>
+			<p class="question">5. What Christmas beverage is also known as “milk punch?”</p>
+			<ul class="choices">
+			<input type="radio" name="q5" value= 0 id="q5a"> White Hot Chocolate <br/>
+			<input type="radio" name="q5" value= 0 id="q5b"> Bailey's <br/>
+			<input type="radio" name="q5" value= 0 id="q5c"> Vanilla Milkshake <br/>
+			<input type="radio" name="q5" value= 1 id="q5d"> Eggnog <br/>
+			</ul>
+		
+			<button type="button" id="submit">Done</button>
+			</div>
+			<button type="button" id="restart">Try Again</button>
+		</section>
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+	background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.voiceable.org%2Fwp-content%2Fuploads%2F2011%2F12%2Fcandys_christmas-wallpaper-1920x1200.jpg&f=1");
+	font-size: 24px;
+	line-height: 34px;
+    color: #0c4f23;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+	box-sizing: border-box;
+}
+
+header, section{
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+header {
+	background-color: orange;
+	height: 100px;
+}
+header h1{
+	padding: 30px;
+	font-size: 40px;
+	font-style: bold;
+	font-weight: bold;
+}
+h2{
+	font-size: 30px;
+}
+ul{
+	text-align: auto;
+}
+.main-section{
+    background-color: #0c4f23;
+    color: #fff;
+    opacity: 0.7;
+}
+button{
+	background-color: orange;
+	width: 20%;
+	height: 20px;
+	opacity: 1 !important;
+    margin-top: 30px;
+}
+.question, .choices{
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#submit, #results, #restart, .question, .choices{
+	display: none;
+}
+
